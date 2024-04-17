@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="nav-toggle">
+            <span></span>
+        </div>
+
+        <aside class="side-bar open">
+            <img id="logo" src="./img/pixelcut-export.png" alt="logo">
+            <ul class="list">
+                <li><a onclick="removeTgl()" href="#Home" class="active">
+                        <i class="fa-solid fa-house back-color"></i>Home</a></li>
+
+                <li><a onclick="removeTgl()" href="#About">
+                        <i class="fa-solid fa-user back-color"></i>About </a></li>
+
+                <li><a onclick="removeTgl()" href="#Services">
+                        <i class="fa-solid fa-list back-color"></i>Services</a></li>
+
+                <li><a onclick="removeTgl()" href="#Projects">
+                        <i class="fa-solid fa-briefcase back-color"></i>Projects</a></li>
+
+                <li><a onclick="removeTgl()" href="#Contact">
+                        <i class="fa-solid fa-id-card-clip back-color"></i>Contact</a></li>
+
+            </ul>
+
+        </aside>
+        <section class="seprate">
+
+            <section class="main-cont active .hide section" id="Home">
+
+
+                <div class="text-area">
+                    <h2>Hello, my name is <span style="color: red;"> <i>Vishal Vaish</i></span> </h2>
+                    <h2>I'm a <span class="auto-type"></span></h2>
+                    <p>Im a web devloper with extensive experience for over 10 <br>years.My expertise is to create and
+                        website <br>
+                        design graphic design, and many more... </p>
+                    <button id="btn">More about me</button>
+                </div>
+
+
+                <img class="my-img" src="./img/1678098452745.jpg" alt="my image">
+
+            </section>
+
+            <section class="About-us .hide section" id="About">
+                <div class="heading-cont">
+                    <h2 style="height: 35px;">About Me</h2>
+                    <hr>
+                    <hr id="hr2">
+
+                </div>
+                <h3>
+                    I'm Vishal Vaish and <span style=" font-weight:700; color: red;">Web Devloper</span>
+                </h3>
+                <p class="para">My journey into web development began with a fascination for technology and a desire to
+                    create things that make a difference. Over the years, I've honed my skills in HTML, CSS, JavaScript,
+                    and various frameworks like React, Bootstrap, Tailwind.
+                </p>
+                <div class="my-details">
+                    <div><b>Birthday:</b>&nbsp; 30 March 1999</div>
+                    <div><b>Age:</b>&nbsp; 24</div>
+                    <div><b>Website:</b>&nbsp; www.domain.com</div>
+                    <div><b>Email:</b>&nbsp; vishalvaish75@gmail.com</div>
+                    <div><b>Degree:</b>&nbsp; MCA</div>
+                    <div><b>Phone:</b>&nbsp; 7409113274</div>
+                    <div><b>City:</b>&nbsp; Saharanpur</div>
+                    <div><b>Freelance:</b>&nbsp;Available</div>
+                </div>
+
+                <div class="btn1">
+                    <a class="btn-cv" href="./resume/VISHAL VAISH Resume.pdf" download="resume">Download CV</a>
+                    <a class="btn-cv" href="#">Hire me</a>
+
+                </div>
+                <h3 style="margin:2rem 0 1rem 0 ;">Education</h3>
+                <div class="edu-container">
+                    <div class="box">
+                        <div class="edu-details">
+                            <i class="fa-solid fa-school back-color"></i> <span class="year-sec">2014 - 2015</span>
+                            <h4>Secondary (X)<sup>th</sup></h4>
+                            <p>I did my Secondary from S A M Inter College Saharanpur. In
+                                the year (2014-2015).
+
+                            </p>
+                        </div>
+                        <div class="edu-details">
+                            <i class="fa-solid fa-building-columns back-color"></i><span class="year-sec"> 2017 -
+                                2018</span>
+                            <h4>Senior Secondary (XII)<sup>th</sup> </h4>
+                            <p>I did my Senior Secondary form Science Side (PCM) from A S M Inter College Saharanpur. In
+                                the year (2017-2018).
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="edu-details">
+                            <i class="fa-solid fa-graduation-cap back-color"></i><span class="year-sec"> 2018 -
+                                2021</span>
+                            <h4>Bachelor of Computer Application (BCA)</h4>
+                            <p>I graduated from Doon Business School Dehradun in the year (2018-2021) and learned
+                                Computer
+                                Languages ​​and Technologies.
+
+                            </p>
+                        </div>
+
+                        <div class="edu-details">
+                            <i class="fa-solid fa-user-graduate back-color"></i><span class="year-sec"> 2022 -
+                                2024</span>
+                            <h4>Master in Computer Application (MCA)</h4>
+                            <p>I am doing masters from Devbhoomi Group of Institute Saharanpur in the year (2022-2024)
+                                and
+                                learning computer languages ​​and technology.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h3 style="margin:2rem 0 1rem 0 ;">Certificate</h3>
+                <div class="edu-container">
+                    <div class="box">
+                        <div class="edu-details">
+                            <i class="fa-brands fa-html5 back-color"></i> <span class="year-sec">May 8,2020</span>
+                            <h4> Introduction To HTML5 (Coursera)</h4>
+                            <p>Hello! I'm Vishal Vaish, a passionate individual who recently completed an intensive HTML
+                                course on Coursera. Equipped with newfound knowledge and practical skills in HTML.
+
+                            </p>
+                        </div>
+                        <div class="edu-details">
+                            <i class="fa-brands fa-css3 back-color"></i><span class="year-sec"> May 21,2020</span>
+                            <h4>Introduction To Css3 (Coursera) </h4>
+                            <p>Hello! I'm Vishal Vaish, a passionate individual who recently completed an intensive CSS
+                                course on Coursera. Equipped with newfound knowledge and practical skills in CSS.
+
+                            </p>
+                        </div>
+                        <div class="edu-details">
+                            <i class="fa-brands fa-js back-color"></i><span class="year-sec"> Sep 20,2020</span>
+                            <h4>Interactivity With JavaScript (Coursera)</h4>
+                            <p>Hello! I'm Vishal Vaish, a passionate individual who recently completed an intensive
+                                JavaScript
+                                course on Coursera. Equipped with newfound knowledge and practical skills in JavaScript.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="edu-details">
+                            <i class="fa-solid fa-server back-color"></i></i><span class="year-sec"> Oct 14, 2020</span>
+                            <h4>Beginning SQL Server (Coursera)</h4>
+                            <p>Hello! I'm Vishal Vaish, a passionate individual who recently completed an intensive
+                                Beginning SQL Server
+                                course on Coursera. Equipped with newfound knowledge and practical skills in Beginning
+                                SQL Server.
+
+                            </p>
+                        </div>
+
+                        <div class="edu-details">
+                            <i class="fa-solid fa-database back-color"></i><span class="year-sec"> Oc t 14, 2020
+                            </span>
+                            <h4>Intermediate Relational Database and SQL (Coursera)</h4>
+                            <p>Hello! I'm Vishal Vaish, a passionate individual who recently completed an intensive
+                                Intermediate Relational Database and SQL
+                                course on Coursera. Equipped with newfound knowledge and practical skills in
+                                Intermediate Relational Database and SQL.
+
+                            </p>
+                        </div>
+
+                        <div class="edu-details">
+                            <i class="fa-solid fa-database back-color"></i><span class="year-sec"> Nov 1, 2020
+                            </span>
+                            <h4> Advanced Relational Database and SQL (Coursera)</h4>
+                            <p>Hello! I'm Vishal Vaish, a passionate individual who recently completed an intensive
+                                Advanced Relational Database and SQL
+                                course on Coursera. Equipped with newfound knowledge and practical skills in Advanced
+                                Relational Database and SQL.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <h3 style="margin:2rem 0 1rem 0 ;">Skills</h3>
+                <div class="edu-container">
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/download (1).jfif" alt="logo">
+                        <h4>C Language</h4>
+                        <p>I have learned this language thoroughly during my graduation and I have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/c-logo.png" alt="logo">
+                        <h4>C++ Language</h4>
+                        <p>I have learned this language thoroughly during my graduation and I have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/download (2).jfif" alt="logo">
+                        <h4>Java</h4>
+                        <p>I have learned this language thoroughly during my Masters's and I have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/html5-logo-31813.png" alt="logo">
+                        <h4>HTML 5</h4>
+                        <p>I have learned this language thoroughly during my graduation and I have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/Cara-Membuat-Lampu-Bohlam-dengan-CSS3-1.png" alt="logo">
+                        <h4>CSS 3</h4>
+                        <p>I have learned this stylesheet thoroughly during my graduation and I have good knowledge
+                            about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/e.png" alt="logo">
+                        <h4>JavaScript</h4>
+                        <p>I have learned this Scripting language thoroughly during my Master's and I have good
+                            knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+
+                    <div class="skill-set">
+                        <img class="skill-logo"
+                            src="./img/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" alt="logo">
+                        <h4>MySQL</h4>
+                        <p>I have learned this language thoroughly during my graduation and I have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/git.png" alt="logo">
+                        <h4>Git</h4>
+                        <p>I have learned this Version Control System thoroughly during my Master's and I have good
+                            knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/download (2).png" alt="logo">
+                        <h4>Github</h4>
+                        <p>I have learned this Platform thoroughly during my graduation and I have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/images (1).png" alt="logo">
+                        <h4>Tailwind</h4>
+                        <p>I have learned this framework thoroughly during my Master's and I have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/api.jpg" alt="logo">
+                        <h4>Application Programming Interface</h4>
+                        <p>I have learned this Application Programming Interface thoroughly during my Master's and I
+                            have good knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/visual.jpg" alt="logo">
+                        <h4>Visual Studio Code</h4>
+                        <p>I have learned this Visual Studio Code thoroughly during my Master's and I have good
+                            knowledge about
+                            the basic concepts and advanced concepts.
+                        </p>
+                    </div>
+                </div>
+                <h3 style="margin:2rem 0 1rem 0 ;">Achievements</h3>
+                <div class="edu-container">
+
+                    <div class="box">
+                        <div class="edu-details">
+                            <i class="fa-solid fa-trophy back-color "></i><span class="year-sec"> Quiz
+                                Competition</span>
+                            <h4>Doon Business School Dehardun (BCA)</h4>
+                            <p>It was a wonderful quiz competition organised by Doon Business School Dehradun and I
+                                along
+                                with the
+                                team participated in this competition. And my team secured second position in this quiz
+                                competition. And
+                                we got a certificate from Doon Business School.
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="edu-details">
+                            <i class="fa-solid fa-trophy back-color "></i><span class="year-sec"> R - Language With Data
+                                Science</span>
+                            <h4>Doon Business School Dehardun (BCA)</h4>
+                            <p>Associated with Doon Business SchoolIt was a great opportunity to become part of this
+                                workshop. And I
+                                learned a lot about R-Language with Data Science. And I got the certificate from Ducat
+
+                            </p>
+                        </div>
+
+            </section>
+
+
+            <section class="Services .hide section" id="Services">
+                <div class="heading-cont">
+                    <h2 style="height: 35px;">Services</h2>
+                    <hr>
+                    <hr id="hr2">
+
+                </div>
+
+
+                <div class="edu-container">
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/laptop.webp" alt="logo">
+                        <h4>Web Design</h4>
+                        <p>Welcome in my services, where we specialize in creating stunning and functional
+                            websites tailored to your unique needs.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+
+                        <img class="skill-logo" src="./img/nwer.png" alt="logo">
+                        <h4>Responsive Design</h4>
+                        <p>Welcome in my services, where we specialize in creating stunning and functional and responsive
+                            websites tailored to your unique needs.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/code.png" alt="logo">
+                        <h4>Devlopment</h4>
+                        <p>Welcome in my services, where we specialize in creating stunning and functional
+                            Devlopment tailored to your unique needs.
+                        </p>
+                    </div>
+
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/tree.webp" alt="logo">
+                        <h4>UI </h4>
+                        <p>Welcome in my services, where we specialize in creating stunning and functional UI
+                            websites tailored to your unique needs.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo " src="./img/neewww.jpg" alt="logo">
+                        <h4>Finding New Things</h4>
+                        <p>Welcome in my services, where we specialize in Finding New Things tailored to your unique needs.
+                        </p>
+                    </div>
+                    <div class="skill-set">
+                        <img class="skill-logo" src="./img/me.png" alt="logo">
+                        <h4>Showcase</h4>
+                        <p>Welcome in my services, where we specialize in Finding New Things tailored to your unique needs and Showcase.
+                        </p>
+                    </div>
+
+
+            </section>
+
+
+            <section class="Projects .hide section" id="Projects">
+                <div class="heading-cont">
+                    <h2 style="height: 35px;">Projects</h2>
+                    <hr>
+                    <hr id="hr2">
+
+                    <div class="pro-cont">
+                        <div class="proje">
+
+                            <img class="imgset" src="./img/project assest/desktop.png" alt="">
+
+                            <div class="btoon">
+
+                                <a href="https://github.com/Vishal7409/vishal_resto.git" target="_blank" class="linkbtn"
+                                    style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/vishal_resto/" target="_blank"
+                                    class="linkbtn">link</a>
+
+                            </div>
+                        </div>
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/currency.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/currency_convertor.git" target="_blank"
+                                    class="linkbtn" style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/currency_convertor/" target="_blank"
+                                    class="linkbtn">link</a>
+                            </div>
+
+
+                        </div>
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/music.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/music-player.git" target="_blank" class="linkbtn"
+                                    style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/music-player/" target="_blank"
+                                    class="linkbtn">link</a>
+                            </div>
+                        </div>
+
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/form.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/survey-form.git" target="_blank" class="linkbtn"
+                                    style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/survey-form/" target="_blank"
+                                    class="linkbtn">link</a>
+                            </div>
+                        </div>
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/animated.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/Animation-using-website.git" target="_blank"
+                                    class="linkbtn" style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/Animation-using-website/" target="_blank"
+                                    class="linkbtn">link</a>
+                            </div>
+                        </div>
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/guide.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/Movie-Guide-webApp.git" target="_blank"
+                                    class="linkbtn" style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/Movie-Guide-webApp/" target="_blank"
+                                    class="linkbtn">link</a>
+                            </div>
+                        </div>
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/todo.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/To_Do_List.git" target="_blank" class="linkbtn"
+                                    style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/To_Do_List/" target="_blank"
+                                    class="linkbtn">link</a>
+                            </div>
+                        </div>
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/vegan.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/Vegan-Store-Simple-Website-Template-main.git"
+                                    target="_blank" class="linkbtn" style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/Vegan-Store-Simple-Website-Template-main/"
+                                    target="_blank" class="linkbtn">link</a>
+                            </div>
+                        </div>
+                        <div class="proje">
+                            <img class="imgset" src="./img/project assest/vegan.png" alt="">
+                            <div class="btoon">
+                                <a href="https://github.com/Vishal7409/Vegan-Store-Simple-Website-Template-main.git"
+                                    target="_blank" class="linkbtn" style="margin-right: 1rem;">code</a>
+                                <a href="https://vishal7409.github.io/Vegan-Store-Simple-Website-Template-main/"
+                                    target="_blank" class="linkbtn">link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="cont-container ,hide section" id="Contact">
+                <div class="heading-cont">
+                    <h2 style="height: 35px;">Contact Us</h2>
+                    <hr>
+                    <hr id="hr2">
+                    <div class="head-cont">
+                        <h3 style="padding-bottom: 0.5rem;">Have You Any Questions ?</h3>
+                        <h5 style="font-weight: 700;">I'M AT YOUR SERVICE</h5>
+                    </div>
+                    <div class="all-deatil">
+                        <div class="mini-box">
+                            <a href="tel:8882192787"><i class="fa-solid fa-phone-flip fa-beat fa-2xl"
+                                    style="color: #363a36;"></i></a>
+                            <h4>coll on us</h4>
+                            <p>7409113274</p>
+                        </div>
+                        <div class="mini-box">
+                            <a href="https://maps.app.goo.gl/KXQuurFj1zC3qidd6"><i
+                                    class="fa-solid fa-location-dot fa-beat fa-2xl" style="color: #363a36;"></i></a>
+
+                            <h4>Address</h4>
+                            <p>Beri Bagh, Saharanpur</p>
+                        </div>
+                        <div class="mini-box">
+                            <a href="mailto:8882192787"><i class="fa-solid fa-envelope fa-beat fa-2xl"
+                                    style="color: #363a36;"></i></a>
+                            <h4>Email</h4>
+                            <p>vishalvaish75@gmail.com</p>
+                        </div>
+                        <div class="mini-box">
+
+                            <a href="https://wa.me/7409113274"><i class="fa-brands fa-square-whatsapp fa-beat fa-2xl"
+                                    style="color: #363a36;"></i></a>
+                            <h4>Whatsaap</h4>
+                            <p>Drop Message </p>
+                        </div>
+                    </div>
+                    <div class="head-cont">
+                        <h3 style="padding-bottom: 0.5rem;">SEND ME AN EMAIL</h3>
+                        <h5 style="font-weight: 700;">I'M VERY RESPONSIVE TO MESSAGES</h5>
+                    </div>
+
+                    <form action="" id="form">
+                        <div class="main-details">
+
+                            <input type="text" name="user-name" id="name" required class="arngeform" placeholder="Name">
+                            <input type="email" name="Email" id="emailId" class="arngeform" placeholder="Email"
+                                required>
+                        </div>
+
+                        <input type="text" name="subject" id="subb" class="arngeform" placeholder="Subject" required>
+
+                        <textarea style="height: 8rem; padding-top:0.5rem ;" minlength="50" maxlength="500"
+                            name="tearea" id="tarea" cols="20" rows="5" class="arngeform" placeholder="Message"
+                            required></textarea>
+
+                        <button class="btn-cv" id="btnform" type="button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
