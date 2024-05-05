@@ -44,7 +44,7 @@ body {
     bottom: 0;
 
     z-index: 10;
-    width: 19rem;
+    width: 20%;
     text-align: center;
     background-color: var(--side-bg-color);
     /* padding: 1rem; */
